@@ -1,0 +1,740 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:1:1-40:12
+INJECTED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:1:1-40:12
+INJECTED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:1:1-40:12
+INJECTED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:1:1-40:12
+MERGED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:1:1-40:12
+MERGED from [:flutter_pdfview] /home/prashant/Desktop/programming/flutter/student_app/build/flutter_pdfview/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:device_id] /home/prashant/Desktop/programming/flutter/student_app/build/device_id/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:path_provider] /home/prashant/Desktop/programming/flutter/student_app/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:path_provider_macos] /home/prashant/Desktop/programming/flutter/student_app/build/path_provider_macos/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:razorpay_flutter] /home/prashant/Desktop/programming/flutter/student_app/build/razorpay_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-14:12
+MERGED from [:file_picker] /home/prashant/Desktop/programming/flutter/student_app/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:image_picker] /home/prashant/Desktop/programming/flutter/student_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-22:12
+MERGED from [:flutter_plugin_android_lifecycle] /home/prashant/Desktop/programming/flutter/student_app/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:video_player] /home/prashant/Desktop/programming/flutter/student_app/build/video_player/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:video_player_web] /home/prashant/Desktop/programming/flutter/student_app/build/video_player_web/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:webview_media] /home/prashant/Desktop/programming/flutter/student_app/build/webview_media/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:agora_rtc_engine] /home/prashant/Desktop/programming/flutter/student_app/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:flutter_downloader] /home/prashant/Desktop/programming/flutter/student_app/build/flutter_downloader/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:wakelock] /home/prashant/Desktop/programming/flutter/student_app/build/wakelock/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:package_info] /home/prashant/Desktop/programming/flutter/student_app/build/package_info/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:permission_handler] /home/prashant/Desktop/programming/flutter/student_app/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences] /home/prashant/Desktop/programming/flutter/student_app/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:firebase_messaging] /home/prashant/Desktop/programming/flutter/student_app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-20:12
+MERGED from [:url_launcher] /home/prashant/Desktop/programming/flutter/student_app/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-14:12
+MERGED from [:url_launcher_macos] /home/prashant/Desktop/programming/flutter/student_app/build/url_launcher_macos/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences_macos] /home/prashant/Desktop/programming/flutter/student_app/build/shared_preferences_macos/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:share] /home/prashant/Desktop/programming/flutter/student_app/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences_web] /home/prashant/Desktop/programming/flutter/student_app/build/shared_preferences_web/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:url_launcher_web] /home/prashant/Desktop/programming/flutter/student_app/build/url_launcher_web/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:fluttertoast] /home/prashant/Desktop/programming/flutter/student_app/build/fluttertoast/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:sqflite] /home/prashant/Desktop/programming/flutter/student_app/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.barteksc:android-pdf-viewer:3.1.0-beta.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/24605298252660400277a47f324a7f03/jetified-android-pdf-viewer-3.1.0-beta.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.webkit:webkit:1.1.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/9e443994bdbd022f0df0542007708607/webkit-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-messaging:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/8f8d0de0bfbb6d9a45585f8e6481a4a3/jetified-firebase-messaging-20.0.1/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-iid:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-common:19.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/8a52977c14256467b02276ca04edf73b/firebase-common-19.2.0/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/9d96085613f94406155ef74cac32e962/firebase-iid-interop-17.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/12172bd92333b24a6ca38dc2aa663cea/play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/b3beacd4a0607e104da108862e66a8bb/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/beb2c85f23cbbfc472c7c08f07e32621/firebase-measurement-connector-18.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/34784142a427c219547ded4cbf6dd159/play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/320950f027f376c11383d4e21a61ddf3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.github.barteksc:pdfium-android:1.9.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/4b766a806921141ede6fa3d4b65d6923/jetified-pdfium-android-1.9.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/fbb2117bb6f60f652b3241a8064153ff/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/f8bf9d136628091caa9fc08302ad7339/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:17:1-125:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/68fcc338d691b61000e523d2da36aef7/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/e021bf93b3fdafac1240af276ec3c9b9/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/c9e152cc6a117c2feb3d0923b83af22d/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/318dd29d44b9ef92c7dd289eda332f60/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/e81a747e4580e8de69b2dd6ed1d4372c/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.1.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/3cb5c039af8158613a10d9e671bdbb3e/room-runtime-2.1.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/61f72bd08e273cc9ee9b9b3bbb71fc01/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/819d7e02b63796dca3b7765d18b4044e/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/af890007e32112ac741692692b56221f/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/df5957dac8f6f172706652fb46745c37/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/e9d7952b58d9cc7b0c6f99f6f17b4672/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/995f7b929152eabf906210bd9eb24ed2/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/e4312dafb5c1d005970eabebf3bdaed3/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/765d948781557ca60ad60520b9d583b2/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/af4ad58b043b9b01a2258381aaeb9d80/lifecycle-service-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/76fcc72f791cef3399cbf05ba903b663/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/35f3fce7d9d5b1641008273dc455a228/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/a5b3d7d657c6e576b8a5e32e3c712805/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/115c2101f2da271c7ef1ec0717505bb7/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/5195d8d1dabbf50f72370dc9b9a9ed29/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.9.6] /home/prashant/.gradle/caches/transforms-2/files-2.1/07921cb21d81d13f804d0444ac158ed9/jetified-exoplayer-hls-2.9.6/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.9.6] /home/prashant/.gradle/caches/transforms-2/files-2.1/a8b5e8801de9134c1e0de15860210b8a/jetified-exoplayer-dash-2.9.6/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.9.6] /home/prashant/.gradle/caches/transforms-2/files-2.1/4cb7ac970fa7fb0fb0829cbb7ba27f74/jetified-exoplayer-smoothstreaming-2.9.6/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.6] /home/prashant/.gradle/caches/transforms-2/files-2.1/9af0c3bd72e7ea6b8f087dc295caaafb/jetified-exoplayer-core-2.9.6/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.arch.core:core-runtime:2.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/055a0e73dcee8cd4bcff5a4d48e113e1/core-runtime-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/0ff3fb14a005817bd6ffd0a1f54bbab2/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/770f717051af90386c0a172c9ad2275d/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/27fb0163268ad9f79a0e7407abfb563d/sqlite-framework-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/da6c9ab442e31d2dfcb8c67858d867ad/sqlite-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/fc1c49fd88466ec8afc9b0e080051146/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/54892eee929906e169d64ad24cacecaf/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/6495dbd7f5fd0643b0d70ffa2e3be2d3/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/8c7a0a4e53912a5bedae762d32fbfc3f/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.razorpay:checkout:1.5.4] /home/prashant/.gradle/caches/transforms-2/files-2.1/62cf57d234dddb0e042467b613d5c6dc/checkout-1.5.4/AndroidManifest.xml:2:1-32:12
+MERGED from [io.agora.rtc:full-sdk:2.9.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/9d6a73fb3d429dccf236b6ecff3cbacb/full-sdk-2.9.1/AndroidManifest.xml:2:1-11:12
+INJECTED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:2:5-38
+		INJECTED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:1:1-40:12
+		INJECTED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:1:1-40:12
+		INJECTED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:8:19-80
+MERGED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:8:19-80
+MERGED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:8:19-80
+MERGED from [:agora_rtc_engine] /home/prashant/Desktop/programming/flutter/student_app/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-67
+MERGED from [:agora_rtc_engine] /home/prashant/Desktop/programming/flutter/student_app/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-67
+MERGED from [com.google.firebase:firebase-iid:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.razorpay:checkout:1.5.4] /home/prashant/.gradle/caches/transforms-2/files-2.1/62cf57d234dddb0e042467b613d5c6dc/checkout-1.5.4/AndroidManifest.xml:9:5-67
+MERGED from [com.razorpay:checkout:1.5.4] /home/prashant/.gradle/caches/transforms-2/files-2.1/62cf57d234dddb0e042467b613d5c6dc/checkout-1.5.4/AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:8:36-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:9:10-83
+MERGED from [:agora_rtc_engine] /home/prashant/Desktop/programming/flutter/student_app/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-79
+MERGED from [:agora_rtc_engine] /home/prashant/Desktop/programming/flutter/student_app/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-79
+MERGED from [com.google.firebase:firebase-iid:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:22:5-79
+MERGED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:26:5-79
+MERGED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.6] /home/prashant/.gradle/caches/transforms-2/files-2.1/9af0c3bd72e7ea6b8f087dc295caaafb/jetified-exoplayer-core-2.9.6/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.6] /home/prashant/.gradle/caches/transforms-2/files-2.1/9af0c3bd72e7ea6b8f087dc295caaafb/jetified-exoplayer-core-2.9.6/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:9:27-81
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:12:10-79
+MERGED from [:device_id] /home/prashant/Desktop/programming/flutter/student_app/build/device_id/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-75
+MERGED from [:device_id] /home/prashant/Desktop/programming/flutter/student_app/build/device_id/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-75
+	android:name
+		ADDED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:12:27-77
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:13:1-67
+MERGED from [:agora_rtc_engine] /home/prashant/Desktop/programming/flutter/student_app/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-71
+MERGED from [:agora_rtc_engine] /home/prashant/Desktop/programming/flutter/student_app/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-71
+	android:name
+		ADDED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:13:18-64
+uses-permission#android.permission.CAMERA
+ADDED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:14:1-61
+MERGED from [:agora_rtc_engine] /home/prashant/Desktop/programming/flutter/student_app/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-65
+MERGED from [:agora_rtc_engine] /home/prashant/Desktop/programming/flutter/student_app/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:14:18-58
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:15:1-76
+MERGED from [:agora_rtc_engine] /home/prashant/Desktop/programming/flutter/student_app/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-80
+MERGED from [:agora_rtc_engine] /home/prashant/Desktop/programming/flutter/student_app/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:15:18-73
+uses-permission#android.permission.BLUETOOTH
+ADDED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:16:1-64
+MERGED from [:agora_rtc_engine] /home/prashant/Desktop/programming/flutter/student_app/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-68
+MERGED from [:agora_rtc_engine] /home/prashant/Desktop/programming/flutter/student_app/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-68
+	android:name
+		ADDED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:16:18-61
+application
+ADDED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:18:5-39:19
+MERGED from [:razorpay_flutter] /home/prashant/Desktop/programming/flutter/student_app/build/razorpay_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-12:19
+MERGED from [:razorpay_flutter] /home/prashant/Desktop/programming/flutter/student_app/build/razorpay_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-12:19
+MERGED from [:image_picker] /home/prashant/Desktop/programming/flutter/student_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-20:19
+MERGED from [:image_picker] /home/prashant/Desktop/programming/flutter/student_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-20:19
+MERGED from [:firebase_messaging] /home/prashant/Desktop/programming/flutter/student_app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-18:19
+MERGED from [:firebase_messaging] /home/prashant/Desktop/programming/flutter/student_app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-18:19
+MERGED from [:url_launcher] /home/prashant/Desktop/programming/flutter/student_app/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher] /home/prashant/Desktop/programming/flutter/student_app/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-12:19
+MERGED from [com.google.firebase:firebase-messaging:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/8f8d0de0bfbb6d9a45585f8e6481a4a3/jetified-firebase-messaging-20.0.1/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/8f8d0de0bfbb6d9a45585f8e6481a4a3/jetified-firebase-messaging-20.0.1/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-iid:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-common:19.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/8a52977c14256467b02276ca04edf73b/firebase-common-19.2.0/AndroidManifest.xml:12:5-24:19
+MERGED from [com.google.firebase:firebase-common:19.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/8a52977c14256467b02276ca04edf73b/firebase-common-19.2.0/AndroidManifest.xml:12:5-24:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/9d96085613f94406155ef74cac32e962/firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/9d96085613f94406155ef74cac32e962/firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/12172bd92333b24a6ca38dc2aa663cea/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/12172bd92333b24a6ca38dc2aa663cea/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/b3beacd4a0607e104da108862e66a8bb/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/b3beacd4a0607e104da108862e66a8bb/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/beb2c85f23cbbfc472c7c08f07e32621/firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/beb2c85f23cbbfc472c7c08f07e32621/firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/34784142a427c219547ded4cbf6dd159/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/34784142a427c219547ded4cbf6dd159/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/320950f027f376c11383d4e21a61ddf3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/320950f027f376c11383d4e21a61ddf3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:29:5-123:19
+MERGED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:29:5-123:19
+MERGED from [androidx.room:room-runtime:2.1.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/3cb5c039af8158613a10d9e671bdbb3e/room-runtime-2.1.0/AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.room:room-runtime:2.1.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/3cb5c039af8158613a10d9e671bdbb3e/room-runtime-2.1.0/AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.core:core:1.1.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/765d948781557ca60ad60520b9d583b2/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/765d948781557ca60ad60520b9d583b2/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/0ff3fb14a005817bd6ffd0a1f54bbab2/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/0ff3fb14a005817bd6ffd0a1f54bbab2/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.razorpay:checkout:1.5.4] /home/prashant/.gradle/caches/transforms-2/files-2.1/62cf57d234dddb0e042467b613d5c6dc/checkout-1.5.4/AndroidManifest.xml:11:5-30:19
+MERGED from [com.razorpay:checkout:1.5.4] /home/prashant/.gradle/caches/transforms-2/files-2.1/62cf57d234dddb0e042467b613d5c6dc/checkout-1.5.4/AndroidManifest.xml:11:5-30:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/765d948781557ca60ad60520b9d583b2/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:20:9-36
+	android:icon
+		ADDED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:21:9-43
+	android:name
+		ADDED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:19:9-57
+activity#com.bodhistudentdemo.in.MainActivity
+ADDED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:22:9-33:20
+	android:launchMode
+		ADDED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:24:13-43
+	android:hardwareAccelerated
+		ADDED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:27:13-47
+	android:windowSoftInputMode
+		ADDED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:28:13-55
+	android:configChanges
+		ADDED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:26:13-163
+	android:theme
+		ADDED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:25:13-47
+	android:name
+		ADDED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:23:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:29:13-32:29
+action#android.intent.action.MAIN
+ADDED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:30:17-68
+	android:name
+		ADDED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:30:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:31:17-76
+	android:name
+		ADDED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:31:27-74
+meta-data#flutterEmbedding
+ADDED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:36:9-38:33
+	android:value
+		ADDED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:38:13-30
+	android:name
+		ADDED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:37:13-44
+uses-sdk
+INJECTED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml
+MERGED from [:flutter_pdfview] /home/prashant/Desktop/programming/flutter/student_app/build/flutter_pdfview/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_pdfview] /home/prashant/Desktop/programming/flutter/student_app/build/flutter_pdfview/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:device_id] /home/prashant/Desktop/programming/flutter/student_app/build/device_id/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:device_id] /home/prashant/Desktop/programming/flutter/student_app/build/device_id/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] /home/prashant/Desktop/programming/flutter/student_app/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] /home/prashant/Desktop/programming/flutter/student_app/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_macos] /home/prashant/Desktop/programming/flutter/student_app/build/path_provider_macos/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_macos] /home/prashant/Desktop/programming/flutter/student_app/build/path_provider_macos/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:razorpay_flutter] /home/prashant/Desktop/programming/flutter/student_app/build/razorpay_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:razorpay_flutter] /home/prashant/Desktop/programming/flutter/student_app/build/razorpay_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:file_picker] /home/prashant/Desktop/programming/flutter/student_app/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:file_picker] /home/prashant/Desktop/programming/flutter/student_app/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /home/prashant/Desktop/programming/flutter/student_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /home/prashant/Desktop/programming/flutter/student_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /home/prashant/Desktop/programming/flutter/student_app/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /home/prashant/Desktop/programming/flutter/student_app/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:video_player] /home/prashant/Desktop/programming/flutter/student_app/build/video_player/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:video_player] /home/prashant/Desktop/programming/flutter/student_app/build/video_player/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:video_player_web] /home/prashant/Desktop/programming/flutter/student_app/build/video_player_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:video_player_web] /home/prashant/Desktop/programming/flutter/student_app/build/video_player_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:webview_media] /home/prashant/Desktop/programming/flutter/student_app/build/webview_media/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:webview_media] /home/prashant/Desktop/programming/flutter/student_app/build/webview_media/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:agora_rtc_engine] /home/prashant/Desktop/programming/flutter/student_app/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:agora_rtc_engine] /home/prashant/Desktop/programming/flutter/student_app/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_downloader] /home/prashant/Desktop/programming/flutter/student_app/build/flutter_downloader/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_downloader] /home/prashant/Desktop/programming/flutter/student_app/build/flutter_downloader/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:wakelock] /home/prashant/Desktop/programming/flutter/student_app/build/wakelock/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:wakelock] /home/prashant/Desktop/programming/flutter/student_app/build/wakelock/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:package_info] /home/prashant/Desktop/programming/flutter/student_app/build/package_info/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:package_info] /home/prashant/Desktop/programming/flutter/student_app/build/package_info/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler] /home/prashant/Desktop/programming/flutter/student_app/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler] /home/prashant/Desktop/programming/flutter/student_app/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /home/prashant/Desktop/programming/flutter/student_app/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /home/prashant/Desktop/programming/flutter/student_app/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_messaging] /home/prashant/Desktop/programming/flutter/student_app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_messaging] /home/prashant/Desktop/programming/flutter/student_app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher] /home/prashant/Desktop/programming/flutter/student_app/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher] /home/prashant/Desktop/programming/flutter/student_app/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_macos] /home/prashant/Desktop/programming/flutter/student_app/build/url_launcher_macos/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_macos] /home/prashant/Desktop/programming/flutter/student_app/build/url_launcher_macos/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_macos] /home/prashant/Desktop/programming/flutter/student_app/build/shared_preferences_macos/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_macos] /home/prashant/Desktop/programming/flutter/student_app/build/shared_preferences_macos/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:share] /home/prashant/Desktop/programming/flutter/student_app/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:share] /home/prashant/Desktop/programming/flutter/student_app/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_web] /home/prashant/Desktop/programming/flutter/student_app/build/shared_preferences_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_web] /home/prashant/Desktop/programming/flutter/student_app/build/shared_preferences_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_web] /home/prashant/Desktop/programming/flutter/student_app/build/url_launcher_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_web] /home/prashant/Desktop/programming/flutter/student_app/build/url_launcher_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:fluttertoast] /home/prashant/Desktop/programming/flutter/student_app/build/fluttertoast/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:fluttertoast] /home/prashant/Desktop/programming/flutter/student_app/build/fluttertoast/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /home/prashant/Desktop/programming/flutter/student_app/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /home/prashant/Desktop/programming/flutter/student_app/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [com.github.barteksc:android-pdf-viewer:3.1.0-beta.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/24605298252660400277a47f324a7f03/jetified-android-pdf-viewer-3.1.0-beta.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:android-pdf-viewer:3.1.0-beta.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/24605298252660400277a47f324a7f03/jetified-android-pdf-viewer-3.1.0-beta.1/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.webkit:webkit:1.1.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/9e443994bdbd022f0df0542007708607/webkit-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.1.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/9e443994bdbd022f0df0542007708607/webkit-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-messaging:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/8f8d0de0bfbb6d9a45585f8e6481a4a3/jetified-firebase-messaging-20.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/8f8d0de0bfbb6d9a45585f8e6481a4a3/jetified-firebase-messaging-20.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:19.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/8a52977c14256467b02276ca04edf73b/firebase-common-19.2.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-common:19.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/8a52977c14256467b02276ca04edf73b/firebase-common-19.2.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/9d96085613f94406155ef74cac32e962/firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/9d96085613f94406155ef74cac32e962/firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/12172bd92333b24a6ca38dc2aa663cea/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/12172bd92333b24a6ca38dc2aa663cea/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/b3beacd4a0607e104da108862e66a8bb/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/b3beacd4a0607e104da108862e66a8bb/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/beb2c85f23cbbfc472c7c08f07e32621/firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/beb2c85f23cbbfc472c7c08f07e32621/firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/34784142a427c219547ded4cbf6dd159/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/34784142a427c219547ded4cbf6dd159/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/320950f027f376c11383d4e21a61ddf3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/320950f027f376c11383d4e21a61ddf3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.barteksc:pdfium-android:1.9.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/4b766a806921141ede6fa3d4b65d6923/jetified-pdfium-android-1.9.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:pdfium-android:1.9.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/4b766a806921141ede6fa3d4b65d6923/jetified-pdfium-android-1.9.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/fbb2117bb6f60f652b3241a8064153ff/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/fbb2117bb6f60f652b3241a8064153ff/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/f8bf9d136628091caa9fc08302ad7339/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/f8bf9d136628091caa9fc08302ad7339/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/68fcc338d691b61000e523d2da36aef7/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/68fcc338d691b61000e523d2da36aef7/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/e021bf93b3fdafac1240af276ec3c9b9/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/e021bf93b3fdafac1240af276ec3c9b9/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/c9e152cc6a117c2feb3d0923b83af22d/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/c9e152cc6a117c2feb3d0923b83af22d/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/318dd29d44b9ef92c7dd289eda332f60/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/318dd29d44b9ef92c7dd289eda332f60/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/e81a747e4580e8de69b2dd6ed1d4372c/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/e81a747e4580e8de69b2dd6ed1d4372c/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.1.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/3cb5c039af8158613a10d9e671bdbb3e/room-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.1.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/3cb5c039af8158613a10d9e671bdbb3e/room-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/61f72bd08e273cc9ee9b9b3bbb71fc01/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/61f72bd08e273cc9ee9b9b3bbb71fc01/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/819d7e02b63796dca3b7765d18b4044e/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/819d7e02b63796dca3b7765d18b4044e/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/af890007e32112ac741692692b56221f/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/af890007e32112ac741692692b56221f/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/df5957dac8f6f172706652fb46745c37/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/df5957dac8f6f172706652fb46745c37/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/e9d7952b58d9cc7b0c6f99f6f17b4672/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/e9d7952b58d9cc7b0c6f99f6f17b4672/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/995f7b929152eabf906210bd9eb24ed2/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/995f7b929152eabf906210bd9eb24ed2/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/e4312dafb5c1d005970eabebf3bdaed3/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/e4312dafb5c1d005970eabebf3bdaed3/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/765d948781557ca60ad60520b9d583b2/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/765d948781557ca60ad60520b9d583b2/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/af4ad58b043b9b01a2258381aaeb9d80/lifecycle-service-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/af4ad58b043b9b01a2258381aaeb9d80/lifecycle-service-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/76fcc72f791cef3399cbf05ba903b663/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/76fcc72f791cef3399cbf05ba903b663/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/35f3fce7d9d5b1641008273dc455a228/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/35f3fce7d9d5b1641008273dc455a228/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/a5b3d7d657c6e576b8a5e32e3c712805/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/a5b3d7d657c6e576b8a5e32e3c712805/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/115c2101f2da271c7ef1ec0717505bb7/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/115c2101f2da271c7ef1ec0717505bb7/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/5195d8d1dabbf50f72370dc9b9a9ed29/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/5195d8d1dabbf50f72370dc9b9a9ed29/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.9.6] /home/prashant/.gradle/caches/transforms-2/files-2.1/07921cb21d81d13f804d0444ac158ed9/jetified-exoplayer-hls-2.9.6/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.9.6] /home/prashant/.gradle/caches/transforms-2/files-2.1/07921cb21d81d13f804d0444ac158ed9/jetified-exoplayer-hls-2.9.6/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.9.6] /home/prashant/.gradle/caches/transforms-2/files-2.1/a8b5e8801de9134c1e0de15860210b8a/jetified-exoplayer-dash-2.9.6/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.9.6] /home/prashant/.gradle/caches/transforms-2/files-2.1/a8b5e8801de9134c1e0de15860210b8a/jetified-exoplayer-dash-2.9.6/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.9.6] /home/prashant/.gradle/caches/transforms-2/files-2.1/4cb7ac970fa7fb0fb0829cbb7ba27f74/jetified-exoplayer-smoothstreaming-2.9.6/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.9.6] /home/prashant/.gradle/caches/transforms-2/files-2.1/4cb7ac970fa7fb0fb0829cbb7ba27f74/jetified-exoplayer-smoothstreaming-2.9.6/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.6] /home/prashant/.gradle/caches/transforms-2/files-2.1/9af0c3bd72e7ea6b8f087dc295caaafb/jetified-exoplayer-core-2.9.6/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.6] /home/prashant/.gradle/caches/transforms-2/files-2.1/9af0c3bd72e7ea6b8f087dc295caaafb/jetified-exoplayer-core-2.9.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/055a0e73dcee8cd4bcff5a4d48e113e1/core-runtime-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/055a0e73dcee8cd4bcff5a4d48e113e1/core-runtime-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/0ff3fb14a005817bd6ffd0a1f54bbab2/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/0ff3fb14a005817bd6ffd0a1f54bbab2/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/770f717051af90386c0a172c9ad2275d/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/770f717051af90386c0a172c9ad2275d/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/27fb0163268ad9f79a0e7407abfb563d/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/27fb0163268ad9f79a0e7407abfb563d/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/da6c9ab442e31d2dfcb8c67858d867ad/sqlite-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/da6c9ab442e31d2dfcb8c67858d867ad/sqlite-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/fc1c49fd88466ec8afc9b0e080051146/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/fc1c49fd88466ec8afc9b0e080051146/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/54892eee929906e169d64ad24cacecaf/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/54892eee929906e169d64ad24cacecaf/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/6495dbd7f5fd0643b0d70ffa2e3be2d3/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/6495dbd7f5fd0643b0d70ffa2e3be2d3/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/8c7a0a4e53912a5bedae762d32fbfc3f/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/8c7a0a4e53912a5bedae762d32fbfc3f/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.razorpay:checkout:1.5.4] /home/prashant/.gradle/caches/transforms-2/files-2.1/62cf57d234dddb0e042467b613d5c6dc/checkout-1.5.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.razorpay:checkout:1.5.4] /home/prashant/.gradle/caches/transforms-2/files-2.1/62cf57d234dddb0e042467b613d5c6dc/checkout-1.5.4/AndroidManifest.xml:5:5-7:41
+MERGED from [io.agora.rtc:full-sdk:2.9.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/9d6a73fb3d429dccf236b6ecff3cbacb/full-sdk-2.9.1/AndroidManifest.xml:7:5-9:41
+MERGED from [io.agora.rtc:full-sdk:2.9.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/9d6a73fb3d429dccf236b6ecff3cbacb/full-sdk-2.9.1/AndroidManifest.xml:7:5-9:41
+INJECTED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/prashant/Desktop/programming/flutter/student_app/android/app/src/debug/AndroidManifest.xml
+activity#com.razorpay.CheckoutActivity
+ADDED from [:razorpay_flutter] /home/prashant/Desktop/programming/flutter/student_app/build/razorpay_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:20
+MERGED from [com.razorpay:checkout:1.5.4] /home/prashant/.gradle/caches/transforms-2/files-2.1/62cf57d234dddb0e042467b613d5c6dc/checkout-1.5.4/AndroidManifest.xml:18:9-29:20
+MERGED from [com.razorpay:checkout:1.5.4] /home/prashant/.gradle/caches/transforms-2/files-2.1/62cf57d234dddb0e042467b613d5c6dc/checkout-1.5.4/AndroidManifest.xml:18:9-29:20
+	android:label
+		ADDED from [:razorpay_flutter] /home/prashant/Desktop/programming/flutter/student_app/build/razorpay_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-46
+	android:configChanges
+		ADDED from [com.razorpay:checkout:1.5.4] /home/prashant/.gradle/caches/transforms-2/files-2.1/62cf57d234dddb0e042467b613d5c6dc/checkout-1.5.4/AndroidManifest.xml:20:13-83
+	android:theme
+		ADDED from [com.razorpay:checkout:1.5.4] /home/prashant/.gradle/caches/transforms-2/files-2.1/62cf57d234dddb0e042467b613d5c6dc/checkout-1.5.4/AndroidManifest.xml:21:13-49
+	android:name
+		ADDED from [:razorpay_flutter] /home/prashant/Desktop/programming/flutter/student_app/build/razorpay_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-57
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:file_picker] /home/prashant/Desktop/programming/flutter/student_app/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+MERGED from [:image_picker] /home/prashant/Desktop/programming/flutter/student_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+MERGED from [:image_picker] /home/prashant/Desktop/programming/flutter/student_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from [:file_picker] /home/prashant/Desktop/programming/flutter/student_app/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:image_picker] /home/prashant/Desktop/programming/flutter/student_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-81
+MERGED from [:agora_rtc_engine] /home/prashant/Desktop/programming/flutter/student_app/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-81
+MERGED from [:agora_rtc_engine] /home/prashant/Desktop/programming/flutter/student_app/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from [:image_picker] /home/prashant/Desktop/programming/flutter/student_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-78
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker] /home/prashant/Desktop/programming/flutter/student_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
+	android:grantUriPermissions
+		ADDED from [:image_picker] /home/prashant/Desktop/programming/flutter/student_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
+	android:authorities
+		ADDED from [:image_picker] /home/prashant/Desktop/programming/flutter/student_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
+	android:exported
+		ADDED from [:image_picker] /home/prashant/Desktop/programming/flutter/student_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+	android:name
+		ADDED from [:image_picker] /home/prashant/Desktop/programming/flutter/student_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker] /home/prashant/Desktop/programming/flutter/student_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+	android:resource
+		ADDED from [:image_picker] /home/prashant/Desktop/programming/flutter/student_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+	android:name
+		ADDED from [:image_picker] /home/prashant/Desktop/programming/flutter/student_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+service#io.flutter.plugins.firebasemessaging.FlutterFirebaseMessagingService
+ADDED from [:firebase_messaging] /home/prashant/Desktop/programming/flutter/student_app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+	android:name
+		ADDED from [:firebase_messaging] /home/prashant/Desktop/programming/flutter/student_app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-101
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [:firebase_messaging] /home/prashant/Desktop/programming/flutter/student_app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [:firebase_messaging] /home/prashant/Desktop/programming/flutter/student_app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-78
+	android:name
+		ADDED from [:firebase_messaging] /home/prashant/Desktop/programming/flutter/student_app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:10:25-75
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_messaging] /home/prashant/Desktop/programming/flutter/student_app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-17:19
+MERGED from [com.google.firebase:firebase-iid:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-common:19.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/8a52977c14256467b02276ca04edf73b/firebase-common-19.2.0/AndroidManifest.xml:13:9-17:35
+MERGED from [com.google.firebase:firebase-common:19.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/8a52977c14256467b02276ca04edf73b/firebase-common-19.2.0/AndroidManifest.xml:13:9-17:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:31:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/8a52977c14256467b02276ca04edf73b/firebase-common-19.2.0/AndroidManifest.xml:17:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/8a52977c14256467b02276ca04edf73b/firebase-common-19.2.0/AndroidManifest.xml:15:13-43
+	android:name
+		ADDED from [:firebase_messaging] /home/prashant/Desktop/programming/flutter/student_app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:13:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebasemessaging.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_messaging] /home/prashant/Desktop/programming/flutter/student_app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-16:85
+	android:value
+		ADDED from [:firebase_messaging] /home/prashant/Desktop/programming/flutter/student_app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-82
+	android:name
+		ADDED from [:firebase_messaging] /home/prashant/Desktop/programming/flutter/student_app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-127
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher] /home/prashant/Desktop/programming/flutter/student_app/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+	android:exported
+		ADDED from [:url_launcher] /home/prashant/Desktop/programming/flutter/student_app/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+	android:theme
+		ADDED from [:url_launcher] /home/prashant/Desktop/programming/flutter/student_app/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+	android:name
+		ADDED from [:url_launcher] /home/prashant/Desktop/programming/flutter/student_app/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/8f8d0de0bfbb6d9a45585f8e6481a4a3/jetified-firebase-messaging-20.0.1/AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/8f8d0de0bfbb6d9a45585f8e6481a4a3/jetified-firebase-messaging-20.0.1/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/8f8d0de0bfbb6d9a45585f8e6481a4a3/jetified-firebase-messaging-20.0.1/AndroidManifest.xml:29:13-82
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-iid:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:24:5-68
+MERGED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:25:5-68
+MERGED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:42:25-78
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/8a52977c14256467b02276ca04edf73b/firebase-common-19.2.0/AndroidManifest.xml:19:9-23:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/8a52977c14256467b02276ca04edf73b/firebase-common-19.2.0/AndroidManifest.xml:21:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/8a52977c14256467b02276ca04edf73b/firebase-common-19.2.0/AndroidManifest.xml:22:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/8a52977c14256467b02276ca04edf73b/firebase-common-19.2.0/AndroidManifest.xml:23:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/8a52977c14256467b02276ca04edf73b/firebase-common-19.2.0/AndroidManifest.xml:20:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/12172bd92333b24a6ca38dc2aa663cea/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/12172bd92333b24a6ca38dc2aa663cea/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/12172bd92333b24a6ca38dc2aa663cea/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/12172bd92333b24a6ca38dc2aa663cea/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/320950f027f376c11383d4e21a61ddf3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/320950f027f376c11383d4e21a61ddf3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/320950f027f376c11383d4e21a61ddf3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:27:22-78
+provider#androidx.work.impl.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:30:9-36:35
+	android:authorities
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:32:13-68
+	android:multiprocess
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:35:13-40
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:34:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:33:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:31:13-69
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:38:9-43:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:42:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:43:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:40:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:39:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:44:9-50:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:47:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:48:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:49:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:50:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:46:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:45:13-84
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:52:9-57:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:55:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:56:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:57:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:54:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:53:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:58:9-68:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:61:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:62:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:63:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:60:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:59:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:64:13-67:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:65:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:65:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:66:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:66:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:69:9-79:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:72:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:73:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:74:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:71:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:70:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:75:13-78:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:76:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:76:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:77:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:77:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:80:9-90:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:83:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:84:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:85:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:82:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:81:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:86:13-89:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:87:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:87:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:88:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:88:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:91:9-100:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:94:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:95:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:96:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:93:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:92:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:97:13-99:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:98:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:98:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:101:9-112:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:104:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:105:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:106:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:103:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:102:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:107:13-111:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:108:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:108:25-76
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:109:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:109:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:110:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:110:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:113:9-122:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:116:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:117:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:118:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:115:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:114:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:119:13-121:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:120:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:120:25-95
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.1.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/3cb5c039af8158613a10d9e671bdbb3e/room-runtime-2.1.0/AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.1.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/3cb5c039af8158613a10d9e671bdbb3e/room-runtime-2.1.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.room:room-runtime:2.1.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/3cb5c039af8158613a10d9e671bdbb3e/room-runtime-2.1.0/AndroidManifest.xml:26:13-74
+receiver#com.razorpay.RzpTokenReceiver
+ADDED from [com.razorpay:checkout:1.5.4] /home/prashant/.gradle/caches/transforms-2/files-2.1/62cf57d234dddb0e042467b613d5c6dc/checkout-1.5.4/AndroidManifest.xml:12:9-16:20
+	android:name
+		ADDED from [com.razorpay:checkout:1.5.4] /home/prashant/.gradle/caches/transforms-2/files-2.1/62cf57d234dddb0e042467b613d5c6dc/checkout-1.5.4/AndroidManifest.xml:12:19-63
+intent-filter#action:name:rzp.device_token.share
+ADDED from [com.razorpay:checkout:1.5.4] /home/prashant/.gradle/caches/transforms-2/files-2.1/62cf57d234dddb0e042467b613d5c6dc/checkout-1.5.4/AndroidManifest.xml:13:13-15:29
+action#rzp.device_token.share
+ADDED from [com.razorpay:checkout:1.5.4] /home/prashant/.gradle/caches/transforms-2/files-2.1/62cf57d234dddb0e042467b613d5c6dc/checkout-1.5.4/AndroidManifest.xml:14:17-65
+	android:name
+		ADDED from [com.razorpay:checkout:1.5.4] /home/prashant/.gradle/caches/transforms-2/files-2.1/62cf57d234dddb0e042467b613d5c6dc/checkout-1.5.4/AndroidManifest.xml:14:25-62
+intent-filter#action:name:android.intent.action.MAIN+data:host:rzp.io+data:scheme:io.rzp
+ADDED from [com.razorpay:checkout:1.5.4] /home/prashant/.gradle/caches/transforms-2/files-2.1/62cf57d234dddb0e042467b613d5c6dc/checkout-1.5.4/AndroidManifest.xml:22:13-28:29
+data
+ADDED from [com.razorpay:checkout:1.5.4] /home/prashant/.gradle/caches/transforms-2/files-2.1/62cf57d234dddb0e042467b613d5c6dc/checkout-1.5.4/AndroidManifest.xml:25:17-27:47
+	android:host
+		ADDED from [com.razorpay:checkout:1.5.4] /home/prashant/.gradle/caches/transforms-2/files-2.1/62cf57d234dddb0e042467b613d5c6dc/checkout-1.5.4/AndroidManifest.xml:26:21-42
+	android:scheme
+		ADDED from [com.razorpay:checkout:1.5.4] /home/prashant/.gradle/caches/transforms-2/files-2.1/62cf57d234dddb0e042467b613d5c6dc/checkout-1.5.4/AndroidManifest.xml:27:21-44

@@ -1,0 +1,425 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bodhistudentdemo.in"
+4    android:versionCode="11"
+5    android:versionName="1.0.11" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:8:19-80
+14-->/home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:8:36-78
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->/home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:9:10-83
+15-->/home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:9:27-81
+16    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+16-->/home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:12:10-79
+16-->/home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:12:27-77
+17    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+17-->/home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:13:1-67
+17-->/home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:13:18-64
+18    <uses-permission android:name="android.permission.CAMERA" />
+18-->/home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:14:1-61
+18-->/home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:14:18-58
+19    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+19-->/home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:15:1-76
+19-->/home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:15:18-73
+20    <uses-permission android:name="android.permission.BLUETOOTH" />
+20-->/home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:16:1-64
+20-->/home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:16:18-61
+21    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+21-->[:file_picker] /home/prashant/Desktop/programming/flutter/student_app/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+21-->[:file_picker] /home/prashant/Desktop/programming/flutter/student_app/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
+22    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+22-->[:image_picker] /home/prashant/Desktop/programming/flutter/student_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-81
+22-->[:image_picker] /home/prashant/Desktop/programming/flutter/student_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-78
+23    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+23-->[com.google.firebase:firebase-iid:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:24:5-68
+23-->[com.google.firebase:firebase-iid:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:24:22-65
+24    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+24-->[com.google.firebase:firebase-iid:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:26:5-82
+24-->[com.google.firebase:firebase-iid:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:26:22-79
+25    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+25-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:27:5-81
+25-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:27:22-78
+26
+27    <application
+27-->/home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:18:5-39:19
+28        android:name="io.flutter.app.FlutterApplication"
+28-->/home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:19:9-57
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.1.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/765d948781557ca60ad60520b9d583b2/core-1.1.0/AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:icon="@mipmap/ic_launcher"
+31-->/home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:21:9-43
+32        android:label="Student App" >
+32-->/home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:20:9-36
+33        <activity
+33-->/home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:22:9-33:20
+34            android:name="com.bodhistudentdemo.in.MainActivity"
+34-->/home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:23:13-41
+35            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+35-->/home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:26:13-163
+36            android:hardwareAccelerated="true"
+36-->/home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:27:13-47
+37            android:launchMode="singleTop"
+37-->/home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:24:13-43
+38            android:theme="@style/LaunchTheme"
+38-->/home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:25:13-47
+39            android:windowSoftInputMode="adjustResize" >
+39-->/home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:28:13-55
+40            <intent-filter>
+40-->/home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:29:13-32:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->/home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:30:17-68
+41-->/home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:30:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->/home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:31:17-76
+43-->/home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:31:27-74
+44            </intent-filter>
+45        </activity>
+46        <!--
+47             Don't delete the meta-data below.
+48             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+49        -->
+50        <meta-data
+50-->/home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:36:9-38:33
+51            android:name="flutterEmbedding"
+51-->/home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:37:13-44
+52            android:value="2" />
+52-->/home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:38:13-30
+53
+54        <activity
+54-->[:razorpay_flutter] /home/prashant/Desktop/programming/flutter/student_app/build/razorpay_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:20
+55            android:name="com.razorpay.CheckoutActivity"
+55-->[:razorpay_flutter] /home/prashant/Desktop/programming/flutter/student_app/build/razorpay_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-57
+56            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+56-->[com.razorpay:checkout:1.5.4] /home/prashant/.gradle/caches/transforms-2/files-2.1/62cf57d234dddb0e042467b613d5c6dc/checkout-1.5.4/AndroidManifest.xml:20:13-83
+57            android:label="Razorpay Checkout"
+57-->[:razorpay_flutter] /home/prashant/Desktop/programming/flutter/student_app/build/razorpay_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-46
+58            android:theme="@style/CheckoutTheme" >
+58-->[com.razorpay:checkout:1.5.4] /home/prashant/.gradle/caches/transforms-2/files-2.1/62cf57d234dddb0e042467b613d5c6dc/checkout-1.5.4/AndroidManifest.xml:21:13-49
+59            <intent-filter>
+59-->[com.razorpay:checkout:1.5.4] /home/prashant/.gradle/caches/transforms-2/files-2.1/62cf57d234dddb0e042467b613d5c6dc/checkout-1.5.4/AndroidManifest.xml:22:13-28:29
+60                <action android:name="android.intent.action.MAIN" />
+60-->/home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:30:17-68
+60-->/home/prashant/Desktop/programming/flutter/student_app/android/app/src/main/AndroidManifest.xml:30:25-66
+61
+62                <data
+62-->[com.razorpay:checkout:1.5.4] /home/prashant/.gradle/caches/transforms-2/files-2.1/62cf57d234dddb0e042467b613d5c6dc/checkout-1.5.4/AndroidManifest.xml:25:17-27:47
+63                    android:host="rzp.io"
+63-->[com.razorpay:checkout:1.5.4] /home/prashant/.gradle/caches/transforms-2/files-2.1/62cf57d234dddb0e042467b613d5c6dc/checkout-1.5.4/AndroidManifest.xml:26:21-42
+64                    android:scheme="io.rzp" />
+64-->[com.razorpay:checkout:1.5.4] /home/prashant/.gradle/caches/transforms-2/files-2.1/62cf57d234dddb0e042467b613d5c6dc/checkout-1.5.4/AndroidManifest.xml:27:21-44
+65            </intent-filter>
+66        </activity>
+67
+68        <provider
+68-->[:image_picker] /home/prashant/Desktop/programming/flutter/student_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
+69            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+69-->[:image_picker] /home/prashant/Desktop/programming/flutter/student_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
+70            android:authorities="com.bodhistudentdemo.in.flutter.image_provider"
+70-->[:image_picker] /home/prashant/Desktop/programming/flutter/student_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
+71            android:exported="false"
+71-->[:image_picker] /home/prashant/Desktop/programming/flutter/student_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+72            android:grantUriPermissions="true" >
+72-->[:image_picker] /home/prashant/Desktop/programming/flutter/student_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
+73            <meta-data
+73-->[:image_picker] /home/prashant/Desktop/programming/flutter/student_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+74                android:name="android.support.FILE_PROVIDER_PATHS"
+74-->[:image_picker] /home/prashant/Desktop/programming/flutter/student_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+75                android:resource="@xml/flutter_image_picker_file_paths" />
+75-->[:image_picker] /home/prashant/Desktop/programming/flutter/student_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+76        </provider>
+77
+78        <service android:name="io.flutter.plugins.firebasemessaging.FlutterFirebaseMessagingService" >
+78-->[:firebase_messaging] /home/prashant/Desktop/programming/flutter/student_app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+78-->[:firebase_messaging] /home/prashant/Desktop/programming/flutter/student_app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-101
+79            <intent-filter>
+79-->[:firebase_messaging] /home/prashant/Desktop/programming/flutter/student_app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:29
+80                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+80-->[:firebase_messaging] /home/prashant/Desktop/programming/flutter/student_app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-78
+80-->[:firebase_messaging] /home/prashant/Desktop/programming/flutter/student_app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:10:25-75
+81            </intent-filter>
+82        </service>
+83        <service
+83-->[:firebase_messaging] /home/prashant/Desktop/programming/flutter/student_app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-17:19
+84            android:name="com.google.firebase.components.ComponentDiscoveryService"
+84-->[:firebase_messaging] /home/prashant/Desktop/programming/flutter/student_app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:13:18-89
+85            android:directBootAware="true"
+85-->[com.google.firebase:firebase-common:19.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/8a52977c14256467b02276ca04edf73b/firebase-common-19.2.0/AndroidManifest.xml:15:13-43
+86            android:exported="false" >
+86-->[com.google.firebase:firebase-iid:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:31:13-37
+87            <meta-data
+87-->[:firebase_messaging] /home/prashant/Desktop/programming/flutter/student_app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-16:85
+88                android:name="com.google.firebase.components:io.flutter.plugins.firebasemessaging.FlutterFirebaseAppRegistrar"
+88-->[:firebase_messaging] /home/prashant/Desktop/programming/flutter/student_app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-127
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[:firebase_messaging] /home/prashant/Desktop/programming/flutter/student_app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-82
+90            <meta-data
+90-->[com.google.firebase:firebase-iid:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:32:13-34:85
+91                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+91-->[com.google.firebase:firebase-iid:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:33:17-96
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[com.google.firebase:firebase-iid:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:34:17-82
+93        </service>
+94
+95        <activity
+95-->[:url_launcher] /home/prashant/Desktop/programming/flutter/student_app/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+96            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+96-->[:url_launcher] /home/prashant/Desktop/programming/flutter/student_app/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+97            android:exported="false"
+97-->[:url_launcher] /home/prashant/Desktop/programming/flutter/student_app/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+98            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+98-->[:url_launcher] /home/prashant/Desktop/programming/flutter/student_app/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+99        <!--
+100             FirebaseMessagingService performs security checks at runtime,
+101             but set to not exported to explicitly avoid allowing another app to call it.
+102        -->
+103        <service
+103-->[com.google.firebase:firebase-messaging:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/8f8d0de0bfbb6d9a45585f8e6481a4a3/jetified-firebase-messaging-20.0.1/AndroidManifest.xml:28:9-34:19
+104            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+104-->[com.google.firebase:firebase-messaging:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/8f8d0de0bfbb6d9a45585f8e6481a4a3/jetified-firebase-messaging-20.0.1/AndroidManifest.xml:29:13-82
+105            android:exported="false" >
+105-->[com.google.firebase:firebase-messaging:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/8f8d0de0bfbb6d9a45585f8e6481a4a3/jetified-firebase-messaging-20.0.1/AndroidManifest.xml:30:13-37
+106            <intent-filter android:priority="-500" >
+106-->[:firebase_messaging] /home/prashant/Desktop/programming/flutter/student_app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:29
+107                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+107-->[:firebase_messaging] /home/prashant/Desktop/programming/flutter/student_app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-78
+107-->[:firebase_messaging] /home/prashant/Desktop/programming/flutter/student_app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:10:25-75
+108            </intent-filter>
+109        </service>
+110
+111        <receiver
+111-->[com.google.firebase:firebase-iid:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:37:9-44:20
+112            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+112-->[com.google.firebase:firebase-iid:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:38:13-78
+113            android:exported="true"
+113-->[com.google.firebase:firebase-iid:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:39:13-36
+114            android:permission="com.google.android.c2dm.permission.SEND" >
+114-->[com.google.firebase:firebase-iid:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:40:13-73
+115            <intent-filter>
+115-->[com.google.firebase:firebase-iid:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:41:13-43:29
+116                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+116-->[com.google.firebase:firebase-iid:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:42:17-81
+116-->[com.google.firebase:firebase-iid:20.0.1] /home/prashant/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:42:25-78
+117            </intent-filter>
+118        </receiver>
+119
+120        <provider
+120-->[com.google.firebase:firebase-common:19.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/8a52977c14256467b02276ca04edf73b/firebase-common-19.2.0/AndroidManifest.xml:19:9-23:39
+121            android:name="com.google.firebase.provider.FirebaseInitProvider"
+121-->[com.google.firebase:firebase-common:19.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/8a52977c14256467b02276ca04edf73b/firebase-common-19.2.0/AndroidManifest.xml:20:13-77
+122            android:authorities="com.bodhistudentdemo.in.firebaseinitprovider"
+122-->[com.google.firebase:firebase-common:19.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/8a52977c14256467b02276ca04edf73b/firebase-common-19.2.0/AndroidManifest.xml:21:13-72
+123            android:exported="false"
+123-->[com.google.firebase:firebase-common:19.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/8a52977c14256467b02276ca04edf73b/firebase-common-19.2.0/AndroidManifest.xml:22:13-37
+124            android:initOrder="100" />
+124-->[com.google.firebase:firebase-common:19.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/8a52977c14256467b02276ca04edf73b/firebase-common-19.2.0/AndroidManifest.xml:23:13-36
+125
+126        <activity
+126-->[com.google.android.gms:play-services-base:17.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/12172bd92333b24a6ca38dc2aa663cea/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+127            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+127-->[com.google.android.gms:play-services-base:17.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/12172bd92333b24a6ca38dc2aa663cea/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+128            android:exported="false"
+128-->[com.google.android.gms:play-services-base:17.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/12172bd92333b24a6ca38dc2aa663cea/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+129            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+129-->[com.google.android.gms:play-services-base:17.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/12172bd92333b24a6ca38dc2aa663cea/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+130
+131        <meta-data
+131-->[com.google.android.gms:play-services-basement:17.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/320950f027f376c11383d4e21a61ddf3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+132            android:name="com.google.android.gms.version"
+132-->[com.google.android.gms:play-services-basement:17.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/320950f027f376c11383d4e21a61ddf3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+133            android:value="@integer/google_play_services_version" />
+133-->[com.google.android.gms:play-services-basement:17.0.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/320950f027f376c11383d4e21a61ddf3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+134
+135        <provider
+135-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:30:9-36:35
+136            android:name="androidx.work.impl.WorkManagerInitializer"
+136-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:31:13-69
+137            android:authorities="com.bodhistudentdemo.in.workmanager-init"
+137-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:32:13-68
+138            android:directBootAware="false"
+138-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:33:13-44
+139            android:exported="false"
+139-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:34:13-37
+140            android:multiprocess="true" />
+140-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:35:13-40
+141
+142        <service
+142-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:38:9-43:35
+143            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+143-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:39:13-88
+144            android:directBootAware="false"
+144-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:40:13-44
+145            android:enabled="@bool/enable_system_alarm_service_default"
+145-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:41:13-72
+146            android:exported="false" />
+146-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:42:13-37
+147        <service
+147-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:44:9-50:35
+148            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+148-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:45:13-84
+149            android:directBootAware="false"
+149-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:46:13-44
+150            android:enabled="@bool/enable_system_job_service_default"
+150-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:47:13-70
+151            android:exported="true"
+151-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:48:13-36
+152            android:permission="android.permission.BIND_JOB_SERVICE" />
+152-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:49:13-69
+153
+154        <receiver
+154-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:52:9-57:35
+155            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+155-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:53:13-88
+156            android:directBootAware="false"
+156-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:54:13-44
+157            android:enabled="true"
+157-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:55:13-35
+158            android:exported="false" />
+158-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:56:13-37
+159        <receiver
+159-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:58:9-68:20
+160            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+160-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:59:13-106
+161            android:directBootAware="false"
+161-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:60:13-44
+162            android:enabled="false"
+162-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:61:13-36
+163            android:exported="false" >
+163-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:62:13-37
+164            <intent-filter>
+164-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:64:13-67:29
+165                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+165-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:65:17-87
+165-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:65:25-84
+166                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+166-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:66:17-90
+166-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:66:25-87
+167            </intent-filter>
+168        </receiver>
+169        <receiver
+169-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:69:9-79:20
+170            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+170-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:70:13-104
+171            android:directBootAware="false"
+171-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:71:13-44
+172            android:enabled="false"
+172-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:72:13-36
+173            android:exported="false" >
+173-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:73:13-37
+174            <intent-filter>
+174-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:75:13-78:29
+175                <action android:name="android.intent.action.BATTERY_OKAY" />
+175-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:76:17-77
+175-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:76:25-74
+176                <action android:name="android.intent.action.BATTERY_LOW" />
+176-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:77:17-76
+176-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:77:25-73
+177            </intent-filter>
+178        </receiver>
+179        <receiver
+179-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:80:9-90:20
+180            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+180-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:81:13-104
+181            android:directBootAware="false"
+181-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:82:13-44
+182            android:enabled="false"
+182-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:83:13-36
+183            android:exported="false" >
+183-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:84:13-37
+184            <intent-filter>
+184-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:86:13-89:29
+185                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+185-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:87:17-83
+185-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:87:25-80
+186                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+186-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:88:17-82
+186-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:88:25-79
+187            </intent-filter>
+188        </receiver>
+189        <receiver
+189-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:91:9-100:20
+190            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+190-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:92:13-103
+191            android:directBootAware="false"
+191-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:93:13-44
+192            android:enabled="false"
+192-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:94:13-36
+193            android:exported="false" >
+193-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:95:13-37
+194            <intent-filter>
+194-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:97:13-99:29
+195                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+195-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:98:17-79
+195-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:98:25-76
+196            </intent-filter>
+197        </receiver>
+198        <receiver
+198-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:101:9-112:20
+199            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+199-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:102:13-88
+200            android:directBootAware="false"
+200-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:103:13-44
+201            android:enabled="false"
+201-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:104:13-36
+202            android:exported="false" >
+202-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:105:13-37
+203            <intent-filter>
+203-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:107:13-111:29
+204                <action android:name="android.intent.action.BOOT_COMPLETED" />
+204-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:108:17-79
+204-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:108:25-76
+205                <action android:name="android.intent.action.TIME_SET" />
+205-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:109:17-73
+205-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:109:25-70
+206                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+206-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:110:17-81
+206-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:110:25-78
+207            </intent-filter>
+208        </receiver>
+209        <receiver
+209-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:113:9-122:20
+210            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+210-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:114:13-99
+211            android:directBootAware="false"
+211-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:115:13-44
+212            android:enabled="@bool/enable_system_alarm_service_default"
+212-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:116:13-72
+213            android:exported="false" >
+213-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:117:13-37
+214            <intent-filter>
+214-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:119:13-121:29
+215                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+215-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:120:17-98
+215-->[androidx.work:work-runtime:2.2.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/43baefb15780d6ba56a1e07c776ff8c0/work-runtime-2.2.0/AndroidManifest.xml:120:25-95
+216            </intent-filter>
+217        </receiver>
+218
+219        <service
+219-->[androidx.room:room-runtime:2.1.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/3cb5c039af8158613a10d9e671bdbb3e/room-runtime-2.1.0/AndroidManifest.xml:25:9-27:40
+220            android:name="androidx.room.MultiInstanceInvalidationService"
+220-->[androidx.room:room-runtime:2.1.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/3cb5c039af8158613a10d9e671bdbb3e/room-runtime-2.1.0/AndroidManifest.xml:26:13-74
+221            android:exported="false" />
+221-->[androidx.room:room-runtime:2.1.0] /home/prashant/.gradle/caches/transforms-2/files-2.1/3cb5c039af8158613a10d9e671bdbb3e/room-runtime-2.1.0/AndroidManifest.xml:27:13-37
+222
+223        <receiver android:name="com.razorpay.RzpTokenReceiver" >
+223-->[com.razorpay:checkout:1.5.4] /home/prashant/.gradle/caches/transforms-2/files-2.1/62cf57d234dddb0e042467b613d5c6dc/checkout-1.5.4/AndroidManifest.xml:12:9-16:20
+223-->[com.razorpay:checkout:1.5.4] /home/prashant/.gradle/caches/transforms-2/files-2.1/62cf57d234dddb0e042467b613d5c6dc/checkout-1.5.4/AndroidManifest.xml:12:19-63
+224            <intent-filter>
+224-->[com.razorpay:checkout:1.5.4] /home/prashant/.gradle/caches/transforms-2/files-2.1/62cf57d234dddb0e042467b613d5c6dc/checkout-1.5.4/AndroidManifest.xml:13:13-15:29
+225                <action android:name="rzp.device_token.share" />
+225-->[com.razorpay:checkout:1.5.4] /home/prashant/.gradle/caches/transforms-2/files-2.1/62cf57d234dddb0e042467b613d5c6dc/checkout-1.5.4/AndroidManifest.xml:14:17-65
+225-->[com.razorpay:checkout:1.5.4] /home/prashant/.gradle/caches/transforms-2/files-2.1/62cf57d234dddb0e042467b613d5c6dc/checkout-1.5.4/AndroidManifest.xml:14:25-62
+226            </intent-filter>
+227        </receiver>
+228    </application>
+229
+230</manifest>

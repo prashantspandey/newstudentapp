@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/prashant/Desktop/programming/flutter/student_app/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/prashant/.gradle/caches/transforms-2/files-2.1/62cf57d234dddb0e042467b613d5c6dc/checkout-1.5.4/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,93",
+                        "endLines": "2,13",
+                        "endColumns": "37,12",
+                        "endOffsets": "88,745"
+                    }
+                }
+            ]
+        }
+    ]
+}

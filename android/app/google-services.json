@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "284377707764",
+    "firebase_url": "https://student-demo-b2b.firebaseio.com",
+    "project_id": "student-demo-b2b",
+    "storage_bucket": "student-demo-b2b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284377707764:android:1582ae71810624bce3daa1",
+        "android_client_info": {
+          "package_name": "com.bodhistudentdemo.in"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "284377707764-fhh4phud329u7um5sisng2qmnbhdk4su.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbv0C3bQlQWFPhPzWpsUJrhvzpGAgkwuM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "284377707764-fhh4phud329u7um5sisng2qmnbhdk4su.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

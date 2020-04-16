@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/prashant/Desktop/programming/flutter/student_app/build/image_picker/intermediates/res/merged/release/layout/notification_action_tombstone.xml",
+        "source": "/home/prashant/.gradle/caches/transforms-2/files-2.1/e6476984552c07eca1aa8b772bc4b082/core-1.0.2/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/prashant/Desktop/programming/flutter/student_app/build/image_picker/intermediates/res/merged/release/layout/notification_template_part_chronometer.xml",
+        "source": "/home/prashant/.gradle/caches/transforms-2/files-2.1/e6476984552c07eca1aa8b772bc4b082/core-1.0.2/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/home/prashant/Desktop/programming/flutter/student_app/build/image_picker/intermediates/res/merged/release/layout/notification_template_part_time.xml",
+        "source": "/home/prashant/.gradle/caches/transforms-2/files-2.1/e6476984552c07eca1aa8b772bc4b082/core-1.0.2/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/home/prashant/Desktop/programming/flutter/student_app/build/image_picker/intermediates/res/merged/release/layout/notification_template_icon_group.xml",
+        "source": "/home/prashant/.gradle/caches/transforms-2/files-2.1/e6476984552c07eca1aa8b772bc4b082/core-1.0.2/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/prashant/Desktop/programming/flutter/student_app/build/image_picker/intermediates/res/merged/release/layout/notification_action.xml",
+        "source": "/home/prashant/.gradle/caches/transforms-2/files-2.1/e6476984552c07eca1aa8b772bc4b082/core-1.0.2/res/layout/notification_action.xml"
+    }
+]
