@@ -51,7 +51,7 @@ class _SignupPageState extends State<SignupPage> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
                   Image.asset("assets/logo.png",
-                      height: MediaQuery.of(context).size.height * 0.09),
+                      height: MediaQuery.of(context).size.height * 0.1),
                 ],
               ),
               SizedBox(height: MediaQuery.of(context).size.height * 0.1),

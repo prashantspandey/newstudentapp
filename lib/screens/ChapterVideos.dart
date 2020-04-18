@@ -3,6 +3,9 @@ import 'package:student_app/requests/request.dart';
 import 'package:student_app/screens/MainTestScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:student_app/screens/NativeVideoWebView.dart';
+import 'package:student_app/screens/SingleVideoPlayer.dart';
+import 'package:student_app/screens/YoutubeVideo.dart';
+import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 class ChapterVideos extends StatefulWidget {
   StudentUser user = StudentUser();
@@ -66,6 +69,24 @@ class _ChapterVideosState extends State<ChapterVideos> {
                                 .split('T')[0]
                                 .toString(),style: TextStyle(fontWeight: FontWeight.bold,color: Colors.orange),),
                             onTap: () {
+                              print('tapped');
+                              videos[index]['link'].contains('yout')
+                                  ? Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                          builder: (context) => YoutubeVideo(
+                                              widget.user,
+                                              YoutubePlayer.convertUrlToId(
+                                                  videos[index]['link']))))
+                                  : Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                          builder: (context) =>
+                                              SingleVideoPlayer(
+                                                  videos[index]['title'],
+                                                  videos[index]['link'])));
+//
+ 
                               // Navigator.push(
                               //     context,
                               //     MaterialPageRoute(

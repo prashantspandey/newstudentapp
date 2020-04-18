@@ -316,7 +316,13 @@ class _HomeScreen extends State<HomeScreen> {
                             setState(() {
                               cancel = false;
                             });
-                            Navigator.pop(context);
+                            //Navigator.pop(context);
+                          Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                          builder: (context) =>
+                          Login()));
+
                           }),
                       RaisedButton(
                         child: Text('Cancel'),
@@ -339,37 +345,32 @@ class _HomeScreen extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: Drawer(child: 
+     Container(child: Column(children: <Widget>[
+       SizedBox(height: 20,),
+       Image.asset('assets/profile.png',height: 50,),
+       Padding(
+         padding: const EdgeInsets.all(8.0),
+         child: Text(user.name),
+       ),
+       Divider(color: Colors.black,)
+     ],),) ,),
       appBar: AppBar(
-        title: Row(
-          mainAxisAlignment: MainAxisAlignment.start,
-          children: <Widget>[
-            CircleAvatar(
-                radius: 25,
-                child: ClipOval(
-                  child: Image.asset('assets/logo.png'),
-                )),
-            Padding(
-              padding: const EdgeInsets.only(left: 20.0),
-              child: Text('Welcome to ' + user.institute,
-                  style: TextStyle(
-                      color: Colors.black,
-                      fontSize: 15,
-                      fontWeight: FontWeight.bold)),
-            ),
-            Spacer(),
-            GestureDetector(
-              onTap: () async {
-                await showLogoutDialog(context);
-                if (cancel == false) {
-                  Navigator.pushReplacement(context,
-                      MaterialPageRoute(builder: (context) => Login()));
-                }
-              },
-              child: Icon(Icons.settings_power, color: Colors.black, size: 30),
-            ),
-          ],
-        ),
-        backgroundColor: Colors.white,
+        title: Text('Welcome to ${user.institute}'),
+        backgroundColor: Colors.black,
+        actions: <Widget>[
+        GestureDetector(child: 
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Icon(Icons.power_settings_new),
+          ),
+          onTap: () async{
+            await showLogoutDialog(context);
+            Navigator.pop(context);
+
+          } 
+        ,)
+        ], 
       ),
       body: SafeArea(
         child: Container(
@@ -385,7 +386,7 @@ class _HomeScreen extends State<HomeScreen> {
                       var links = snapshot.data;
                       return Container(
                         child: CarouselSlider(
-                          height: 280.0,
+                          height: 300.0,
                           items: links.map<Widget>((i) {
                             return Builder(
                               builder: (BuildContext context) {
@@ -398,7 +399,7 @@ class _HomeScreen extends State<HomeScreen> {
                                     child: CachedNetworkImage(
                                       imageUrl: i,
                                       placeholder: (context, url) =>
-                                          CircularProgressIndicator(),
+                                          Center(child:CircularProgressIndicator()),
                                       errorWidget: (context, url, error) =>
                                           Icon(Icons.error),
                                     ));
@@ -458,6 +459,7 @@ class _HomeScreen extends State<HomeScreen> {
                         var info = await instituteInformation();
                         String aboutUs = info['aboutUs'];
                         if (aboutUs != null || aboutUs != '') {
+                          _launchUrl(aboutUs);
                           Navigator.pop(context);
                           // Navigator.push(
                           // context,
