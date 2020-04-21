@@ -11,6 +11,7 @@ import 'package:student_app/screens/AllTestList.dart';
 import 'package:student_app/screens/AnnouncementScreen.dart';
 import 'package:student_app/screens/BatchesScreen.dart';
 import 'package:student_app/screens/CoursesScreen.dart';
+import 'package:student_app/screens/CurrentAffairs.dart';
 import 'package:student_app/screens/LiveVideoList.dart';
 import 'package:student_app/screens/Login.dart';
 import 'package:student_app/screens/NativeLiveVideo.dart';
@@ -52,10 +53,7 @@ class _HomeScreen extends State<HomeScreen> {
   bool allDownloaded = false;
 
   List<dynamic> options = [
-    {'name': 'Courses', 
-    'screen': CoursesScreen, 
-    'image': 'assets/ebook.png'
-    },
+    {'name': 'Courses', 'screen': CoursesScreen, 'image': 'assets/ebook.png'},
     {
       'name': 'All Videos',
       'screen': VideoList,
@@ -66,9 +64,7 @@ class _HomeScreen extends State<HomeScreen> {
       'screen': AllNotesScreen,
       'image': 'assets/notebook.png'
     },
-    {'name': 'All Tests', 
-    'screen': AllTestList, 
-    'image': 'assets/exam.png'},
+    {'name': 'All Tests', 'screen': AllTestList, 'image': 'assets/exam.png'},
     {
       'name': 'Performance',
       'screen': PerformanceList,
@@ -79,9 +75,7 @@ class _HomeScreen extends State<HomeScreen> {
       'screen': PackageHomeScreen,
       'image': 'assets/package.png'
     },
-    {'name': 'Attendance', 
-    'screen': '', 'image': 
-    'assets/attendance.png'},
+    {'name': 'Attendance', 'screen': '', 'image': 'assets/attendance.png'},
     {
       'name': 'Youtube Live',
       'screen': LiveVideoList,
@@ -101,6 +95,11 @@ class _HomeScreen extends State<HomeScreen> {
       'name': 'Batches',
       'screen': BatchesScreen,
       'image': 'assets/courses.webp'
+    },
+    {
+      'name': 'Current Affairs',
+      'screen': CurrentAffairs,
+      'image': 'assets/current_affairs.png'
     },
 
     //  {
@@ -317,12 +316,10 @@ class _HomeScreen extends State<HomeScreen> {
                               cancel = false;
                             });
                             //Navigator.pop(context);
-                          Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                          builder: (context) =>
-                          Login()));
-
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => Login()));
                           }),
                       RaisedButton(
                         child: Text('Cancel'),
@@ -345,32 +342,43 @@ class _HomeScreen extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      drawer: Drawer(child: 
-     Container(child: Column(children: <Widget>[
-       SizedBox(height: 20,),
-       Image.asset('assets/profile.png',height: 50,),
-       Padding(
-         padding: const EdgeInsets.all(8.0),
-         child: Text(user.name),
-       ),
-       Divider(color: Colors.black,)
-     ],),) ,),
+      drawer: Drawer(
+        child: Container(
+          child: Column(
+            children: <Widget>[
+              SizedBox(
+                height: 20,
+              ),
+              Image.asset(
+                'assets/profile.png',
+                height: 50,
+              ),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Text(user.name),
+              ),
+              Divider(
+                color: Colors.black,
+              )
+            ],
+          ),
+        ),
+      ),
       appBar: AppBar(
         title: Text('Welcome to ${user.institute}'),
         backgroundColor: Colors.black,
         actions: <Widget>[
-        GestureDetector(child: 
-          Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: Icon(Icons.power_settings_new),
-          ),
-          onTap: () async{
-            await showLogoutDialog(context);
-            Navigator.pop(context);
-
-          } 
-        ,)
-        ], 
+          GestureDetector(
+            child: Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Icon(Icons.power_settings_new),
+            ),
+            onTap: () async {
+              await showLogoutDialog(context);
+              Navigator.pop(context);
+            },
+          )
+        ],
       ),
       body: SafeArea(
         child: Container(
@@ -398,8 +406,8 @@ class _HomeScreen extends State<HomeScreen> {
                                         BoxDecoration(color: Colors.white),
                                     child: CachedNetworkImage(
                                       imageUrl: i,
-                                      placeholder: (context, url) =>
-                                          Center(child:CircularProgressIndicator()),
+                                      placeholder: (context, url) => Center(
+                                          child: CircularProgressIndicator()),
                                       errorWidget: (context, url, error) =>
                                           Icon(Icons.error),
                                     ));
@@ -565,6 +573,11 @@ class _HomeScreen extends State<HomeScreen> {
                               context,
                               MaterialPageRoute(
                                   builder: (context) => BatchesScreen(user)));
+                        } else if (e['screen'].toString() == 'CurrentAffairs') {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => CurrentAffairs(user)));
                         }
                       },
                       child: Card(

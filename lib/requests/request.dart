@@ -30,13 +30,13 @@ Future studentLogin(username, password) async {
   }
 }
 
-Future studentRegister(name, username, password, instituteCode,batches) async {
+Future studentRegister(name, username, password, instituteCode, batches) async {
   Map<String, String> body = {
     'name': name,
     'username': username,
     'password': password,
     'institute_code': instituteCode,
-    'batches':jsonEncode(batches)
+    'batches': jsonEncode(batches)
   };
   var headers = {
     "Accept": "application/json",
@@ -457,8 +457,7 @@ Future getAllNotes(key) async {
     'Accept': 'application/json',
     "Content-Type": 'application/x-www-form-urlencoded'
   };
-  String url =
-      'http://15.206.150.90/api/content/student_get_all_notes/';
+  String url = 'http://15.206.150.90/api/content/student_get_all_notes/';
   var data = await http.get(url, headers: headers);
 
   if (data.statusCode == 200) {
@@ -470,14 +469,14 @@ Future getAllNotes(key) async {
     print(data.statusCode.toString());
   }
 }
+
 Future getLiveVideoLink(key) async {
   var headers = {
     'Authorization': 'token $key',
     'Accept': 'application/json',
     "Content-Type": 'application/x-www-form-urlencoded'
   };
-  String url =
-      'http://15.206.150.90/api/content/student_get_live_video_link/';
+  String url = 'http://15.206.150.90/api/content/student_get_live_video_link/';
   var data = await http.get(url, headers: headers);
 
   if (data.statusCode == 200) {
@@ -489,15 +488,13 @@ Future getLiveVideoLink(key) async {
   }
 }
 
-
 Future getAgoraLiveVideo(key) async {
   var headers = {
     'Authorization': 'token $key',
     'Accept': 'application/json',
     "Content-Type": 'application/x-www-form-urlencoded'
   };
-  String url =
-      'http://15.206.150.90/api/content/student_get_agora_live_video/';
+  String url = 'http://15.206.150.90/api/content/student_get_agora_live_video/';
   var data = await http.get(url, headers: headers);
 
   if (data.statusCode == 200) {
@@ -509,7 +506,6 @@ Future getAgoraLiveVideo(key) async {
     print(data.statusCode.toString());
   }
 }
-
 
 agoraSendMessage(key, message, videoId) async {
   var body = {
@@ -537,7 +533,7 @@ agoraSendMessage(key, message, videoId) async {
   }
 }
 
-Future getChapterVideos(key,chapterId) async {
+Future getChapterVideos(key, chapterId) async {
   var body = {
     'chapter_id': jsonEncode(chapterId),
   };
@@ -560,10 +556,9 @@ Future getChapterVideos(key,chapterId) async {
   } else {
     print(data.statusCode);
   }
-
 }
 
-Future getChapterTests(key,chapterId) async {
+Future getChapterTests(key, chapterId) async {
   var body = {
     'chapter_id': jsonEncode(chapterId),
   };
@@ -586,9 +581,7 @@ Future getChapterTests(key,chapterId) async {
   } else {
     print(data.statusCode);
   }
-
 }
-
 
 Future getInstituteInformation(key) async {
   var headers = {
@@ -597,9 +590,9 @@ Future getInstituteInformation(key) async {
     "Content-Type": "application/x-www-form-urlencoded"
   };
 
-  String url = 'http://15.206.150.90/api/basicinformation/student_institute_information/';
-  var data =
-      await http.get(url, headers: headers);
+  String url =
+      'http://15.206.150.90/api/basicinformation/student_institute_information/';
+  var data = await http.get(url, headers: headers);
 
   if (data.statusCode == 200) {
     var utfDecode = utf8.decode(data.bodyBytes);
@@ -609,7 +602,6 @@ Future getInstituteInformation(key) async {
   } else {
     print(data.statusCode);
   }
-
 }
 
 Future checkUpdate(key, version) async {
@@ -621,7 +613,8 @@ Future checkUpdate(key, version) async {
   var body = {
     'version': jsonEncode(version),
   };
-  String url = 'http://15.206.150.90/api/basicinformation/student_check_app_version/';
+  String url =
+      'http://15.206.150.90/api/basicinformation/student_check_app_version/';
   var data = await http.post(url, headers: headers, body: body);
 
   if (data.statusCode == 200) {
@@ -634,13 +627,15 @@ Future checkUpdate(key, version) async {
     return data.body;
   }
 }
+
 Future allAnnouncements(key) async {
   var headers = {
     'Authorization': 'token $key',
     'Accept': 'application/json',
     "Content-Type": 'application/x-www-form-urlencoded'
   };
-  String url = 'http://15.206.150.90/api/communication/student_all_announcements/';
+  String url =
+      'http://15.206.150.90/api/communication/student_all_announcements/';
   var data = await http.get(url, headers: headers);
 
   if (data.statusCode == 200) {
@@ -654,7 +649,7 @@ Future allAnnouncements(key) async {
   }
 }
 
-Future joinLiveVideo(key, videoId,joinTime) async {
+Future joinLiveVideo(key, videoId, joinTime) async {
   var headers = {
     'Authorization': 'token $key',
     'Accept': 'application/json',
@@ -664,7 +659,8 @@ Future joinLiveVideo(key, videoId,joinTime) async {
     'video_id': jsonEncode(videoId),
     'join_time': joinTime.toString(),
   };
-  String url = 'http://15.206.150.90/api/basicinformation/student_join_live_video/';
+  String url =
+      'http://15.206.150.90/api/basicinformation/student_join_live_video/';
   var data = await http.post(url, headers: headers, body: body);
 
   if (data.statusCode == 200) {
@@ -678,7 +674,7 @@ Future joinLiveVideo(key, videoId,joinTime) async {
   }
 }
 
-Future leaveLiveVideo(key, videoId,leaveTime) async {
+Future leaveLiveVideo(key, videoId, leaveTime) async {
   print('leave video ${videoId.toString()}');
   var headers = {
     'Authorization': 'token $key',
@@ -689,7 +685,8 @@ Future leaveLiveVideo(key, videoId,leaveTime) async {
     'video_id': jsonEncode(videoId),
     'leaveTime': leaveTime.toString(),
   };
-  String url = 'http://15.206.150.90/api/basicinformation/student_leave_live_video/';
+  String url =
+      'http://15.206.150.90/api/basicinformation/student_leave_live_video/';
   var data = await http.post(url, headers: headers, body: body);
 
   if (data.statusCode == 200) {
@@ -712,7 +709,8 @@ Future studentDeviceIdCheck(key, deviceId) async {
   var body = {
     'deviceId': jsonEncode(deviceId),
   };
-  String url = 'http://15.206.150.90/api/basicinformation/student_check_deviceId/';
+  String url =
+      'http://15.206.150.90/api/basicinformation/student_check_deviceId/';
   var data = await http.post(url, headers: headers, body: body);
 
   if (data.statusCode == 200) {
@@ -757,7 +755,7 @@ Future batchesBeforeRegistration(instituteCode) async {
   };
 
   String url = 'http://15.206.150.90/api/basicinformation/student_get_batches/';
-  var data = await http.post(url, headers: headers,body: body);
+  var data = await http.post(url, headers: headers, body: body);
 
   if (data.statusCode == 200) {
     var utfDecode = utf8.decode(data.bodyBytes);
@@ -777,7 +775,8 @@ Future checkJoinRequestProgress(key) async {
     "Content-Type": 'application/x-www-form-urlencoded'
   };
 
-  String url = 'http://15.206.150.90/api/basicinformation/student_check_join_request/';
+  String url =
+      'http://15.206.150.90/api/basicinformation/student_check_join_request/';
   var data = await http.get(url, headers: headers);
 
   if (data.statusCode == 200) {
@@ -790,6 +789,7 @@ Future checkJoinRequestProgress(key) async {
     return data.body;
   }
 }
+
 Future getCourses(key) async {
   var headers = {
     'Authorization': 'token $key',
@@ -811,7 +811,7 @@ Future getCourses(key) async {
   }
 }
 
-Future subjectOfCourse(key,courseId) async {
+Future subjectOfCourse(key, courseId) async {
   var headers = {
     'Authorization': 'token $key',
     'Accept': 'application/json',
@@ -822,7 +822,7 @@ Future subjectOfCourse(key,courseId) async {
   };
 
   String url = 'http://15.206.150.90/api/content/student_get_subjects_course/';
-  var data = await http.post(url, headers: headers,body: body);
+  var data = await http.post(url, headers: headers, body: body);
 
   if (data.statusCode == 200) {
     var utfDecode = utf8.decode(data.bodyBytes);
@@ -832,5 +832,113 @@ Future subjectOfCourse(key,courseId) async {
   } else {
     print(data.statusCode.toString());
     return data.body;
+  }
+}
+
+Future buyPackageRequest(key, packageId, time, phone) async {
+  var headers = {
+    'Authorization': 'token $key',
+    'Accept': 'application/json',
+    "Content-Type": 'application/x-www-form-urlencoded'
+  };
+  var body = {
+    'package_id': jsonEncode(packageId),
+    'time': time.toString(),
+    'phone': phone,
+  };
+
+  String url = 'http://15.206.150.90/api/content/student_buy_request_package/';
+  var data = await http.post(url, headers: headers, body: body);
+
+  if (data.statusCode == 200) {
+    var utfDecode = utf8.decode(data.bodyBytes);
+    var response = json.decode(utfDecode);
+    print('student buy request package ${response.toString()}');
+    return response;
+  } else {
+    print(data.statusCode.toString());
+    return data.body;
+  }
+}
+
+Future isBuyPackageRequest(key, packageId) async {
+  var headers = {
+    'Authorization': 'token $key',
+    'Accept': 'application/json',
+    "Content-Type": 'application/x-www-form-urlencoded'
+  };
+  var body = {
+    'package_id': jsonEncode(packageId),
+  };
+
+  String url = 'http://15.206.150.90/api/content/student_is_package_request/';
+  var data = await http.post(url, headers: headers, body: body);
+
+  if (data.statusCode == 200) {
+    var utfDecode = utf8.decode(data.bodyBytes);
+    var response = json.decode(utfDecode);
+    print('student is package request ${response.toString()}');
+    return response;
+  } else {
+    print(data.statusCode.toString());
+    return data.body;
+  }
+}
+
+Future checkUsernameExitance(username) async {
+  StudentUser studentUser = StudentUser();
+  Map<String, String> body = {
+    'username': username,
+  };
+  var headers = {
+    "Accept": "application/json",
+    "Content-Type": "application/x-www-form-urlencoded"
+  };
+  String url =
+      'http://15.206.150.90/api/basicinformation/check_exist_username/';
+  var data = await http.post(url, body: body, headers: headers);
+  print('username exists data ${data.toString()}');
+  if (data.statusCode == 200 || data.statusCode == 201) {
+    var utfDecode = utf8.decode(data.bodyBytes);
+    var response = json.decode(utfDecode);
+    return response;
+  } else {
+    print(data.body);
+  }
+}
+
+Future getAllCurrentAffairsVideos(key) async {
+  var headers = {
+    'Authorization': 'token $key',
+    'Accept': 'application/json',
+    "Content-Type": 'application/x-www-form-urlencoded'
+  };
+  String url = 'http://15.206.150.90/api/content/student_get_current_affairs_videos/';
+  var data = await http.get(url, headers: headers);
+  if (data.statusCode == 200) {
+    var utfDecode = utf8.decode(data.bodyBytes);
+    var response = json.decode(utfDecode);
+    print("all videos list of current affairs here $response");
+    return response;
+  } else {
+    print(data.statusCode.toString());
+  }
+}
+
+Future getCurrentAffairsArticles(key) async {
+  var headers = {
+    'Authorization': 'token $key',
+    'Accept': 'application/json',
+    "Content-Type": 'application/x-www-form-urlencoded'
+  };
+  String url = 'http://15.206.150.90/api/content/student_get_current_affairs_notes/';
+  var data = await http.get(url, headers: headers);
+  if (data.statusCode == 200) {
+    var utfDecode = utf8.decode(data.bodyBytes);
+    var response = json.decode(utfDecode);
+    print('get all current affairs Articles ${response.toString()}');
+    return response;
+  } else {
+    print(data.statusCode.toString());
   }
 }

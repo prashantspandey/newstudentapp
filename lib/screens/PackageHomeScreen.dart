@@ -15,8 +15,14 @@ class PackageHomeScreen extends StatelessWidget {
       body: Column(
         children: <Widget>[
           ListTile(
-            leading: Image.asset("assets/package.png",height: MediaQuery.of(context).size.height*0.045,),
-            title: Text('My Packages',style: TextStyle(fontWeight: FontWeight.bold),),
+            leading: Image.asset(
+              "assets/package.png",
+              height: MediaQuery.of(context).size.height * 0.045,
+            ),
+            title: Text(
+              'My Packages',
+              style: TextStyle(fontWeight: FontWeight.bold),
+            ),
             subtitle: Divider(
               color: Colors.orange,
             ),
@@ -28,8 +34,14 @@ class PackageHomeScreen extends StatelessWidget {
             },
           ),
           ListTile(
-            leading: Image.asset("assets/package.png",height: MediaQuery.of(context).size.height*0.045,),
-            title: Text('All Packages',style: TextStyle(fontWeight: FontWeight.bold),),
+            leading: Image.asset(
+              "assets/package.png",
+              height: MediaQuery.of(context).size.height * 0.045,
+            ),
+            title: Text(
+              'All Packages',
+              style: TextStyle(fontWeight: FontWeight.bold),
+            ),
             subtitle: Divider(
               color: Colors.orange,
             ),

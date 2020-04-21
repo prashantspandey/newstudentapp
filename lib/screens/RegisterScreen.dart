@@ -5,7 +5,9 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
+import 'package:student_app/screens/OTPRegister.dart';
 import '../helpers/app_settings.dart';
+
 class SignupPage extends StatefulWidget {
   @override
   _SignupPageState createState() => _SignupPageState();
@@ -40,7 +42,7 @@ class _SignupPageState extends State<SignupPage> {
 
   @override
   Widget build(BuildContext context) {
-      return SafeArea(
+    return SafeArea(
       child: Scaffold(
         body: Container(
           color: Colors.white,
@@ -56,22 +58,22 @@ class _SignupPageState extends State<SignupPage> {
               ),
               SizedBox(height: MediaQuery.of(context).size.height * 0.1),
               Padding(
-                padding: const EdgeInsets.only(left: 45, right: 45,bottom: 20),
+                padding: const EdgeInsets.only(left: 45, right: 45, bottom: 20),
                 child: TextField(
                   controller: nameController,
                   decoration: InputDecoration(hintText: "Full Name"),
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.only(left: 45, right: 45,bottom: 20),
+                padding: const EdgeInsets.only(left: 45, right: 45, bottom: 20),
                 child: TextField(
                   controller: usernameController,
-                    keyboardType: TextInputType.number,
+                  keyboardType: TextInputType.number,
                   decoration: InputDecoration(hintText: "Phone Number"),
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.only(left: 45, right: 45,bottom: 60),
+                padding: const EdgeInsets.only(left: 45, right: 45, bottom: 60),
                 child: TextField(
                   controller: passwordController,
                   obscureText: true,
@@ -94,24 +96,21 @@ class _SignupPageState extends State<SignupPage> {
                       String username = usernameController.text;
                       String password = passwordController.text;
                       String name = nameController.text;
-                      if (username == null ||
+                      if (username.length != 10 ||
                           name == null ||
                           username == '' ||
                           name == '') {
                         Fluttertoast.showToast(
-                            msg: 'Please fill all the fields');
+                            msg:
+                                'Please fill all the fields or enter proper number');
                       } else {
-                          showDialog(
-                              context: context,
-                              builder: (context) {
-                                return RequestBatch(
-                                    instituteCode, name, username, password);
-                              });
+                        showDialog(
+                            context: context,
+                            builder: (context) {
+                              return RequestBatch(
+                                  instituteCode, name, username, password);
+                            });
                       }
-
-
-
-
                     }),
               ),
               Container(
@@ -164,9 +163,10 @@ class _SignupPageState extends State<SignupPage> {
                                     color: Colors.blueAccent, fontSize: 18),
                                 recognizer: TapGestureRecognizer()
                                   ..onTap = () {
-                           Navigator.push(context,
-                              MaterialPageRoute(builder: (context) => Login()));
-                                   
+                                    Navigator.push(
+                                        context,
+                                        MaterialPageRoute(
+                                            builder: (context) => Login()));
                                   })
                           ]),
                     ),
@@ -239,7 +239,21 @@ class _RequestBatch extends State<RequestBatch> {
   void dispose() {
     super.dispose();
   }
-
+showLoader(context) {
+    return showDialog(
+        context: context,
+        barrierDismissible: true,
+        builder: (context) {
+          return AlertDialog(
+            content: Container(
+              height: 100,
+              child: Center(
+                child: CircularProgressIndicator(),
+              ),
+            ),
+          );
+        });
+  }
   @override
   Widget build(BuildContext context) {
     return Dialog(
@@ -291,24 +305,33 @@ class _RequestBatch extends State<RequestBatch> {
                       }
                     }
                     if (sendBatches.length != 0) {
-                      var response = await studentRegister(widget.name,
-                          widget.username, widget.password, instituteCode,sendBatches);
-                      if (response['status'] == 'Success') {
-                        Navigator.pushReplacement(context,
-                            MaterialPageRoute(builder: (context) => Login()));
-//
+                      var response =
+                          await checkUsernameExitance(widget.username);
+                      if (response['exist'] == true) {
                         Fluttertoast.showToast(
                             msg:
-                                'Successfully Registered !! Now login using your phone and password.');
-                                Navigator.pop(context);
-                          Navigator.pushReplacement(context,
-                              MaterialPageRoute(builder: (context) => Login()));
-
+                                ' Phone number already registered.You can login with this number.');
+                        Navigator.pop(context);
                       } else {
-                        Fluttertoast.showToast(
-                            msg:
-                                'Error in registration - "Phone number already registered. ${response['message']}');
-                                Navigator.pop(context);
+                        showLoader(context);
+                        Fluttertoast.showToast(msg: 'Sending OTP');
+                        var response = await changePasswordOTP(widget.username);
+                        Navigator.pop(context); 
+                        if (response['status'].toString() == '200') {
+                          var otp = response['otp'];
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => OTPRegister(
+                                      otp,
+                                      widget.username,
+                                      widget.name,
+                                      widget.password,
+                                      widget.instituteCode,
+                                      sendBatches)));
+                        } else {
+                          Fluttertoast.showToast(msg: response['message']);
+                        }
                       }
                     } else {
                       Fluttertoast.showToast(
